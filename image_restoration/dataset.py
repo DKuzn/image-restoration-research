@@ -4,7 +4,7 @@ from PIL import Image
 import random as rd
 import os
 import copy
-from utils import image_to_tensor
+from image_restoration.utils import image_to_tensor
 from typing import Callable
 
 

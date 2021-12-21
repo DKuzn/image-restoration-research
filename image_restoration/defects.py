@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
-from utils import get_random_color, get_random_ellipse, get_random_scratch
+from image_restoration.utils import get_random_color, get_random_ellipse, get_random_scratch
 import random as rd
 
 
