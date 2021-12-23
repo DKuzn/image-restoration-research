@@ -41,7 +41,7 @@ def get_random_scratch(img_size, seed=None):
 def tensor_to_image(tensor):
     img = tensor.detach().numpy()
     img = np.moveaxis(img, 0, -1)
-    return img
+    return np.uint8(img * 255.0)
 
 
 def image_to_tensor(image):
